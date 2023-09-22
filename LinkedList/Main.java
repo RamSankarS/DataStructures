@@ -5,7 +5,7 @@ public class Main {
         LL.insertFirst(5);
         LL.insertFirst(6);
         LL.insertFirst(4);
-
+        LL.insertLast(99);
         LL.display();
     }
     
