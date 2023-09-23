@@ -5,6 +5,7 @@ public class Main {
         ll.insertFirst(20);
         ll.insertFirst(90);
         ll.Display();
+        ll.displayRev();
     }
     
 }

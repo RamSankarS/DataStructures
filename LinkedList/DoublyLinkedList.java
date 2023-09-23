@@ -18,10 +18,22 @@ public class DoublyLinkedList{
     public void Display(){
         Node temp = head;
         while(temp != null){
-            System.out.print(temp.val + " -> ");
+            System.out.print(temp.value + " -> ");
             temp = temp.next;
         }
         System.out.println("End");
+    }
+
+    public void displayRev(){
+        Node temp = head;
+        while(temp.next != null){
+            temp = temp.next;
+        }
+        while(temp != null){
+            System.out.print(temp.value + " <- ");
+            temp = temp.prev;
+        }
+        System.out.println("Start");
     }
 
     public DoublyLinkedList(){
@@ -29,16 +41,16 @@ public class DoublyLinkedList{
     }
     
     private class Node{
-        int val;
+        int value;
         Node next;
         Node prev;
         public Node(int val,Node next,Node prev){
-            this.val = val;
+            this.value = val;
             this.next = next;
             this.prev = prev;
         }
         public Node(int val){
-            this.val = val;
+            this.value = val;
         }
     }
 }
