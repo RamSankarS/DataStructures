@@ -76,6 +76,7 @@ public class DoublyLinkedList{
         if(node.next != null){
             node.next.prev = node;
         }
+        size++;
     }
 
     private class Node{
