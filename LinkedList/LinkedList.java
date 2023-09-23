@@ -45,7 +45,33 @@ public class LinkedList {
         Node node = new Node(val, temp.next);
         temp.next = node;
         size++;
+    }
 
+    public Node get(int index){
+        Node node = head;
+        for(int i = 0; i < index; i++){
+            node = node.next;
+        }
+        return node;
+    }
+
+    public Node find(int value){
+        Node node = head;
+        while(node.value != value){
+            node = node.next;
+            if(node.next == null){
+                return null;
+            }   
+        }
+        return node;
+    }
+
+    public int deleteFirst(){
+        int val = head.value;
+        head = head.next;
+        if(head == null) tail = null;
+        size --;
+        return val;
     }
 
     public void display(){

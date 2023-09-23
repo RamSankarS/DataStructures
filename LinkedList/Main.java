@@ -8,6 +8,9 @@ public class Main {
         LL.insertLast(99);
         LL.insert(20, 2);
         LL.display();
+        System.out.println(LL.deleteFirst());
+        LL.display();
+        System.out.println(LL.find(5));
     }
     
 }
