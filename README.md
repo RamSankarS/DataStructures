@@ -26,3 +26,6 @@ Data Structures and Algorithms are like the secret sauce of programming. They're
 I'm just starting my journey into DSA, and this repository is my coding diary. I'm excited to have you join me on this adventure. Together, we'll face challenges, celebrate small wins, and keep the spirit of curiosity alive! 🌟
 
 Happy coding and learning! 🚴‍♂️💻
+
+## License: 
+The [MIT License](https://github.com/RamSankarS/MachineLearning/blob/main/LICENSE) grants you the freedom to use, modify, and distribute the code without restrictions, even for commercial purposes. All you need to do is include the original license and copyright notice in your project. However, it's crucial not to remove or alter this notice. Keep in mind that the code is provided as-is, with no warranties or guarantees. This license promotes open collaboration and sharing while ensuring accountability for the use of the code.
