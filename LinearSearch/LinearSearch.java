@@ -20,7 +20,7 @@ public class LinearSearch {
         return -1;
     }
 
-//***************Questions****************
+//***************Basic Questions****************
 
     static int minSearch(int[] arr){
         int min = arr[0];
