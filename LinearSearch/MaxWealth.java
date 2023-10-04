@@ -1,28 +1,7 @@
-//https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
-//https://leetcode.com/problems/richest-customer-wealth/
-public class LeetCodeProblems{
+public class MaxWealth {
     public static void main(String[] args) {
-        int[] arr = {42,22,33,300,400,560,789};
         int[][] wealth = {{40,50,20},{30,400,80},{500,0,0}};
         System.out.println(maximumWealth(wealth));
-        System.out.println(findNumbers(arr));
-
-    }
-
-    static int findNumbers(int[] arr){
-        int count = 0;
-        for(int element : arr){
-            if(digitCounter(element)%2 == 0) count++;
-        }
-        return count;
-    }
-    static int digitCounter(int num){
-        int digitCount = 0;
-        while(num!=0){
-            digitCount++;
-            num = num/10;
-        }
-        return digitCount;
     }
     static int maximumWealth(int[][] accounts) {
         int[] sumArray = new int[accounts.length];
@@ -43,5 +22,4 @@ public class LeetCodeProblems{
         }
         return max;
     }
-
 }
